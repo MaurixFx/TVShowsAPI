@@ -1,5 +1,30 @@
 {
   "sourceLanguage" : "en",
-  "strings" : {},
+  "strings" : {
+    "Destination %lld" : {
+
+    },
+    "Home" : {
+
+    },
+    "Home %lld" : {
+
+    },
+    "Navigation" : {
+
+    },
+    "Navigation %lld" : {
+
+    },
+    "Option" : {
+
+    },
+    "Settings" : {
+
+    },
+    "Welcome" : {
+
+    }
+  },
   "version" : "1.0"
 }

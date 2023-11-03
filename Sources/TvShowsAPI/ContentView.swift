@@ -6,7 +6,7 @@ struct ContentView: View {
     var body: some View {
         TabView {
             VStack {
-                Text("Welcome Skipper!")
+                Text("Welcome")
                 Image(systemName: "heart.fill")
                     .foregroundColor(.red)
             }
