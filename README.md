@@ -1,2 +1,0 @@
-# TVShowsAPI
-SWIFTUI CrossPlatform
