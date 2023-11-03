@@ -67,7 +67,7 @@ playground.xcworkspace
 Carthage/Build/
 
 # Skip framework
-Skip/build
+Skip/build/
 
 # Accio dependency management
 Dependencies/
