@@ -1,4 +1,4 @@
-			// !$*UTF8*$!
+// !$*UTF8*$!
 {
 	archiveVersion = 1;
 	classes = {
@@ -35,6 +35,7 @@
 		49F90C2B2A52156200F06D93 /* TvShowsAPIAppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TvShowsAPIAppMain.swift; path = Sources/TvShowsAPIApp/TvShowsAPIAppMain.swift; sourceTree = SOURCE_ROOT; };
 		49F90C2F2A52156300F06D93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Sources/TvShowsAPI/Skip/Assets.xcassets; sourceTree = "<group>"; };
 		49F90C312A52156300F06D93 /* Capabilities.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Capabilities.entitlements; path = Sources/TvShowsAPI/Skip/Capabilities.entitlements; sourceTree = "<group>"; };
+		D5BE71F42AF581850077A86A /* TvShowsAPIApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TvShowsAPIApp-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 		49F90C1F2A52156200F06D93 = {
 			isa = PBXGroup;
 			children = (
+				D5BE71F42AF581850077A86A /* TvShowsAPIApp-Info.plist */,
 				496EB72F2A6AE4DE00C1253B /* TvShowsAPI.xcconfig */,
 				493609562A6B7EAE00C401E2 /* TvShowsAPI */,
 				49F90C2A2A52156200F06D93 /* App */,
@@ -122,7 +124,7 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1500;
 			};
-			buildConfigurationList = 49F90C232A52156200F06D93 /* Build configuration list for PBXProject "TvShowsAPIApp" */;
+			buildConfigurationList = 49F90C232A52156200F06D93 /* Build configuration list for PBXProject "TvShowsAPI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -229,6 +231,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TvShowsAPIApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -246,6 +249,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TvShowsAPIApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -263,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TvShowsAPIApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -329,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49F90C232A52156200F06D93 /* Build configuration list for PBXProject "TvShowsAPIApp" */ = {
+		49F90C232A52156200F06D93 /* Build configuration list for PBXProject "TvShowsAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49F90C4B2A52156300F06D93 /* Debug */,
